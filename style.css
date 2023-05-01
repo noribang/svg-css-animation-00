@@ -1,4 +1,21 @@
 path {
+    stroke-dasharray: 8085;
+    stroke-dashoffset: 8085;
+    animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 8085;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* IF PATHLENGTH=1 FOR PATH ELEMENT. */
+/* path {
     stroke-dasharray: 1;
     stroke-dashoffset: 1;
     animation: dash 5s linear forwards;
@@ -11,4 +28,4 @@ path {
     to {
         stroke-dashoffset: 0;
     }
-}
+} */

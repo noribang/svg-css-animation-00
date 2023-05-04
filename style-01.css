@@ -2,7 +2,7 @@
   /* stroke-dasharray: 20; */
   stroke-dasharray: 100;
   /* stroke-dasharray: 150; */
-  animation: dash 5s linear;
+  animation: dash 5s linear infinite;
 }
 
 @keyframes dash {

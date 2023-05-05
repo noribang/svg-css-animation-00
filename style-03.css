@@ -1,6 +1,6 @@
 .path {
     stroke-dasharray: 20;
-    animation: dash 5s linear;
+    animation: dash 5s linear infinite;
 }
 
 @keyframes dash {

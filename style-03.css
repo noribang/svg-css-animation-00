@@ -1,3 +1,5 @@
-path {
-    stroke-dasharray: 20;
+.path {
+    stroke-dasharray: 100;
+    animation: dash 5s linear;
 }
+

@@ -8,8 +8,9 @@ svg {
     width: 200px;
 }
 svg path {
-    stroke-dasharray: 10;
-    stroke-dashoffset: 10;
+    stroke-dasharray: 210;
+    stroke-dashoffset: 210;
+    animation: draw 10s forwards;
 }
 svg g {
     fill-opacity: 0;

@@ -7,3 +7,15 @@ svg {
     height: 140px;
     width: 200px;
 }
+
+svg path {
+    stroke-dasharray: 10;
+    stroke-dashoffset: 10;
+}
+
+svg g {
+    fill-opacity: 0;
+}
+
+
+

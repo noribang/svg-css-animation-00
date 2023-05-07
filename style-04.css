@@ -1,0 +1,9 @@
+body {
+    font-family: san-serif;
+    display: flex;
+    justify-content: center;
+}
+svg {
+    height: 140px;
+    width: 200px;
+}

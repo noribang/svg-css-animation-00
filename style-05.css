@@ -25,12 +25,24 @@ svg path {
     stroke-dasharray: 208;
     stroke-dashoffset: 208;
     /* FORWARDS KEEPS THE STROKES ON SCREEN. */
-    animation: draw 5s forwards;
+    animation: draw 10s forwards;
 }
 
 @keyframes draw {
-    to {
+    /* to { */
         /* WILL MAKE ALL STROKES APPEAR. */
-        stroke-dashoffset: 0;
-    }
+        /* stroke-dashoffset: 0; */
+    /* } */
+    0% {stroke-dashoffset: 208;}
+    10% {stroke-dashoffset: 187;}
+    20% {stroke-dashoffset: 166;}
+    30% {stroke-dashoffset: 146;}
+    40% {stroke-dashoffset: 125;}
+    50% {stroke-dashoffset: 104;}
+    60% {stroke-dashoffset: 83;}
+    70% {stroke-dashoffset: 62;}
+    80% {stroke-dashoffset: 42;}
+    90% {stroke-dashoffset: 21;}
+    100% {stroke-dashoffset: 0;}
+
 }

@@ -3,8 +3,25 @@ body {
     display: flex;
     justify-content: center;
 }
-
 svg {
     height: 140px;
     width: 200px;
+}
+
+svg path {
+    /* ALL STROKES APPEAR. */
+    /* stroke-dasharray: 0; */
+    /* stroke-dashoffset: 0; */
+
+    /* ALL STROKES APPEAR. */
+    /* stroke-dasharray: 208;
+    stroke-dashoffset: 0; */
+
+    /* ALL STROKES APPEAR. */
+    /* stroke-dasharray: 0;
+    stroke-dashoffset: 208; */
+
+    /* NO STROKES APPEAR. */
+    stroke-dasharray: 208;
+    stroke-dashoffset: 208;
 }

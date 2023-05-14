@@ -24,4 +24,13 @@ svg path {
     /* NO STROKES APPEAR. */
     stroke-dasharray: 208;
     stroke-dashoffset: 208;
+    /* FORWARDS KEEPS THE STROKES ON SCREEN. */
+    animation: draw 5s forwards;
+}
+
+@keyframes draw {
+    to {
+        /* WILL MAKE ALL STROKES APPEAR. */
+        stroke-dashoffset: 0;
+    }
 }
